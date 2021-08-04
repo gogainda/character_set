@@ -8,7 +8,7 @@ jobs:
 
     strategy:
       matrix:
-        ruby: [ '2.2', '2.7', '3.0', 'ruby-head', 'jruby-head' ]
+        ruby: [ '2.2', '2.7', '3.0', 'ruby-head', 'jruby-head', 'truffleruby-head']
 
     steps:
       - uses: actions/checkout@v2
